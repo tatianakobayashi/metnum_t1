@@ -25,7 +25,7 @@ def bissecao(f, a, b, parada, N):
     return p
 
 # Newton
-def newton(f, f_x0, N, E):  
+def newton(f, f_, x0, N, E):  
     x = [0 for i in range(N)]
     x[0] = x0
     for k in range(0, N):
